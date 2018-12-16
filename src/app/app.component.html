@@ -1,19 +1,209 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    {{ title }}!
-  </h1>
-</div>
-<ul>
-<!--   <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li> -->
-</ul>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ title }}!</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projeto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#signup">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="masthead">
+  <div class="container d-flex h-100 align-items-center">
+    <div class="mx-auto text-center">
+      <h1 class="mx-auto my-0 text-uppercase">Cultura Old School</h1>
+      <h2 class="text-white-50 mx-auto mt-2 mb-5">Planeje uma equipe de qualquer área com o método Old School, implante
+        os princípios básicos de numa equipe vencedora.</h2>
+      <a href="#about" class="btn btn-primary js-scroll-trigger">Vamos</a>
+    </div>
+  </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="about-section text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">Vamos trazer as nossas experiências, mas antes...</h2>
+        <p class="text-white-50">Trabalhar de forma honesta e neutra é complicado, então não é fácil ser bem sucedido
+          com times ágeis em nenhuma esfera de atuação.
+          <a target="_blank" href="https://www.facebook.com/pg/equipeoldschool/posts/?ref=page_internal">Aqui temos uma
+            história</a>.
+          Ser assertivo num meio competitivo de atuação como no futsal talvez seja desafiador, sabendo <b>onde</b>,
+          <b>quando</b> e é claro <b>como</b> você quer chegar, você sabe responder estas 3 perguntas correto?</p>
+      </div>
+    </div>
+    <img src="../assets/img/ipad.png" class="img-fluid" alt="">
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light">
+  <div class="container">
+
+    <!-- Featured Project Row -->
+    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div class="col-xl-8 col-lg-7">
+        <img class="img-fluid mb-3 mb-lg-0" src="../assets/img/bg-masthead.jpg" alt="">
+      </div>
+      <div class="col-xl-4 col-lg-5">
+        <div class="featured-text text-center text-lg-left">
+          <h4>Confiança</h4>
+          <p class="text-black-50 mb-0">Primeiro saiba, você precisa das pessoas, elas precisam sentir que você tem
+            segurança, se você se questiona sobre liquidez financeira, menbros, colaboradores, desempenho ou qualquer
+            coisa relacionado ao seu próprio negócio na frente do seu principal ativo, que são as pessoas, significa
+            que você está perdendo a confiança do seu time.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project One Row -->
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="../assets/img/demo-image-01.jpg" alt="">
+      </div>
+      <div class="col-lg-6">
+        <div class="bg-black text-center h-100 project">
+          <div class="d-flex h-100">
+            <div class="project-text w-100 my-auto text-center text-lg-left">
+              <h4 class="text-white">Fatos novos</h4>
+              <p class="mb-0 text-white-50">Você não precisa ser um ilusionista o tempo todo, mas você deve sempre ter
+                algo novo para mostrar para o seu grupo, pense em coisas novas, crie cargos, se comunique com a equipe
+                para saber o que eles precisam, sabendo que a sua equipe tem anseios e necessidades, todos os seus
+                comandados tem aspirações e não querem ficar parados, criar fatos novos, cria um ciclo a onde as
+                pessoas percebem que estão sempre em movimento. Lembre-se, todos querem se sentir desafiados.</p>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Two Row -->
+    <div class="row justify-content-center no-gutters">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="../assets/img/demo-image-02.jpg" alt="">
+      </div>
+      <div class="col-lg-6 order-lg-first">
+        <div class="bg-black text-center h-100 project">
+          <div class="d-flex h-100">
+            <div class="project-text w-100 my-auto text-center text-lg-right">
+              <h4 class="text-white">Mística</h4>
+              <p class="mb-0 text-white-50">Por mais que saibamos que as 3 perguntas já foram respondidas e temos tudo
+                planejado, existe um segredo! Tenha em mente que você precista inspirar as pessoas, tenha com você
+                pessoas que inspiram as outras, é um detalhe muito importante para um sucesso ainda maior da sua
+                equipe. Mas, é algo que deve exigir um grande esforço de você até você começar a fazer isso
+                naturalmente. Você pode ter alguém no grupo que já tenha isso como um dom, então se utilize dela a seu
+                favor, aprenda com ela e queira ela sempre perto. Você vai errar algumas vezes até demonstrar a atitude
+                certa sem ofender e sem ser tão mole com seu time na pitada certa.
+                Então você precisa inspirar ou delegar para que alguém seja seu fator motivacional dentro do seu grupo.</p>
+              <hr class="d-none d-lg-block mb-0 mr-0">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Signup Section -->
+<section id="signup" class="signup-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+        <h2 class="text-white mb-5">Inscreva-se e receba atualizações!</h2>
+
+        <form class="form-inline d-flex">
+          <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Entre com o seu e-mail...">
+          <button type="submit" class="btn btn-primary mx-auto">Inscrever</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section bg-black">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Endereço</h4>
+            <hr class="my-4">
+            <div class="small text-black-50">3500 rue Phill Kimball, Trois Rivières, QC, Canada</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-envelope text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Email</h4>
+            <hr class="my-4">
+            <div class="small text-black-50">
+              <a href="#">oldschool@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Telefone</h4>
+            <hr class="my-4">
+            <div class="small text-black-50">+1 (555) 902-8832</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="social d-flex justify-content-center">
+      <a  class="mx-2">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a  class="mx-2">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="mx-2">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black small text-center text-white-50">
+  <div class="container">
+    Copyright &copy; Desenhando Web 2018
+  </div>
+</footer>
 
 <router-outlet></router-outlet>

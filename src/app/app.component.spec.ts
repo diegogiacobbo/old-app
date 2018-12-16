@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Culture old team'`, () => {
+  it(`should have as title 'Culture Old Team'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('Culture old team');
+    expect(app.title).toEqual('Culture Old Team');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Culture old team');
+    expect(compiled.querySelector('h1').textContent).toContain('Culture Old Team');
   });
 });

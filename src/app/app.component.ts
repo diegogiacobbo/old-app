@@ -1,13 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['../assets/css/bootstrap.css', '../assets/css/fontawesome-free.css', './app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   
-  title = 'Culture old team';
+  constructor() {
+    //
+  }
+  
+  public ngOnInit() {
+    //
+  }
 
+  title = 'Culture Old Team';
 
 }
