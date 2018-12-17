@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm install -g @angular-devkit/build-angular @angular/cli && ng serve",
+    "start": "npm install -g @angular-devkit/build-angular @angular/cli @angular/compiler-cli && ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
