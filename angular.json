@@ -140,11 +140,5 @@
       }
     }
   },
-  "defaultProject": "culture-old-app",
-  "defaults": {
-    "serve": {
-      "port": 8080
-    }
-  }
-  
+  "defaultProject": "culture-old-app"
 }
